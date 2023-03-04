@@ -6,7 +6,7 @@ This is a temporary script file.
 """
 import numpy as np
 import pickle
-with open('E:\\ml model deployment\\nlp_model.pkl','rb') as f:
+with open('E:/ml model deployment/nlp_model.pkl','rb') as f:
  cv, classifier= pickle.load(f)
 X_test = ["This is a neutral review."]
 X_test_vect = cv.transform(X_test)
