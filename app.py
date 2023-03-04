@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-with open('E:/ml model deployment/nlp_model.pkl','rb') as f:
+with open('nlp_model.pkl','rb') as f:
  cv, classifier= pickle.load(f)
 #create function for prediction
 def sentiment_analysis(review):
